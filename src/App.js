@@ -2,6 +2,8 @@ import logo from './logo.svg'
 import './App.css'
 
 function App() {
+  const aa = 'AAA'
+  const bb = process.env.BACKEND_URL
   return (
     <div className='App'>
       <header className='App-header'>
