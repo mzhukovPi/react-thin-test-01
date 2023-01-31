@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className='App-logo' alt='logo' />
         <p>(E)dit <code>src/App.js</code> and save to reload.</p>
         <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>Learn React</a>
+        <p>BACKEND_URL: {process.env.BACKEND_URL}</p>
       </header>
     </div>
   )
